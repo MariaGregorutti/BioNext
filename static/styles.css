@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: "Poppins";
+    transition: all 0.3s ;
+}
+
+:root {
+    --cor-branco: #FFFFFF;
+    --cor-preto: #000000;
+
+    --cor-verde-1: #034D03;
+    --cor-verde-2: #008000;
+    --cor-verde-3: #015E01;
+    --cor-verde-4: #3DAE3D;
+    --cor-verde-5: #46CC46;
+    --cor-verde-6: #507950;
+    --cor-verde-7: #5AB85A;
+    --cor-verde-8: #9CE19C;
+
+    --cor-cinza-1: #C8E4C8;
+    --cor-cinza-2: #858181;
+    --cor-cinza-3: #EBEBEB;
+    --cor-cinza-4: #F6F6F6;
+}
+
+
+
+.d-flex{
+    display: flex;
+}
+nav{
+    gap: 3em;
+    margin-top: 3.5em;
+    margin-left: 5em;
+}
+
+nav a{
+    color: var(--cor-preto);
+}
+
+.contato{
+    background-color: var(--cor-verde-2);
+    height: 2em;
+    width: 5.5em;
+    border-radius: 0.3em;
+    color: var(--cor-branco);
+    text-align: center;
+    border: none;
+    font-size: 1em;
+    margin-top: 0em;
+}
+
+.logo{
+    height: 7.5em;
+    width: 8.5em;
+    margin-top: 1.5em;
+    margin-left: 2em;
+}
+
+.banner{
+    background-color: var(--cor-verde-8);
+    padding: 11em;
+}
+
+.banner h1{
+    color: var(--cor-branco);
+    max-width: 12em;
+    font-size: 3.6em;
+    margin-left: -1em;
+    margin-top: -2em;
+}
+
+.banner p{
+    color: var(--cor-branco);
+    margin-left: -3.5em;
+    font-size: 1.3em;
+    max-width: 25em;
+    margin-left: -2.8em;
+    margin-top: 1em;
+}
+
+.jogueAgora{
+    background-color: var(--cor-verde-2);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    color: var(--cor-branco);
+    text-align: center;
+    border: none;
+    font-size: 1em;
+    margin-left: 6em;
+    position: relative;
+    top: 2em;
+   
+}
+
+.meninaCapa{
+    height: 30em;
+    width: 44em;
+    margin-top: -7.3em;
+    margin-left: 22.9em;
+    position: absolute;
+    margin-top: -3.3em;
+    filter: drop-shadow(0 0 12px rgba(0,0,0,0.3));;
+
+}
+
+.rabiscoOne{
+    margin-top: -4.6em;
+    height: 33em;
+    margin-left: -6em;
+    opacity: 0.5;
+}
+
+.rabiscoTwo{
+    margin-left: 37.7em;
+    height: 29em;
+    width: 39em;
+    opacity: 0.5;
+}
