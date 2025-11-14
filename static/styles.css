@@ -24,6 +24,7 @@
     --cor-cinza-2: #858181;
     --cor-cinza-3: #EBEBEB;
     --cor-cinza-4: #F6F6F6;
+
 }
 
 
@@ -107,16 +108,32 @@ nav a{
 
 }
 
-.rabiscoOne{
-    margin-top: -4.6em;
-    height: 33em;
-    margin-left: -6em;
-    opacity: 0.5;
+.recursosTecnologicos h3{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
 }
 
-.rabiscoTwo{
-    margin-left: 37.7em;
-    height: 29em;
-    width: 39em;
-    opacity: 0.5;
+.sub{
+    max-width: 35em;
+    text-align: center;
+    margin-left: 22em;
+    margin-top: 1em;
+    color: var(--cor-verde-3);
+}
+
+.modelo3D{
+    background-color: var(--cor-cinza-1);
+    height: 20em;
+    width: 19em;
+
+}
+
+.micro{
+    height: 12em;
+    margin-left: 5em;
+}
+
+.modelo3D h4{
+    margin: ;
 }
